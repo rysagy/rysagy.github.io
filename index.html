@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>류상균 | 로봇·임베디드 개발 포트폴리오</title>
+  <meta name="description" content="물류자동화 현장 경험을 바탕으로 로봇 제어, 임베디드 시스템, 비전 AI를 구현하는 류상균의 포트폴리오. ARMIGO, Safe Eye, ROS2 주행·도킹 프로젝트를 소개합니다.">
+  <meta name="theme-color" content="#122b2e">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="류상균 | 현장을 이해하고 로봇을 구현합니다">
+  <meta property="og:description" content="로봇 제어 · 임베디드 · 비전 AI. 프로젝트 구현과 물류자동화 현장 경험을 소개합니다.">
+  <meta property="og:url" content="https://rysagy.github.io/">
+  <meta property="og:image" content="https://rysagy.github.io/profile.webp">
+  <link rel="canonical" href="https://rysagy.github.io/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">본문으로 이동</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="류상균 포트폴리오 처음으로"><span class="brand-mark">SG<span>.</span></span><span>류상균<span class="brand-sub">ROBOTICS DEVELOPER</span></span></a>
+    <button class="menu-toggle" aria-label="메뉴 열기" aria-expanded="false" aria-controls="navigation"><span></span><span></span></button>
+    <nav id="navigation" aria-label="주 메뉴"><a href="#projects">프로젝트</a><a href="#skills">기술</a><a href="#experience">경력</a><a class="nav-contact" href="#contact">연락하기 <span aria-hidden="true">↗</span></a></nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="small-line"></span> ROBOTICS / EMBEDDED / VISION AI</p>
+          <h1 id="hero-title">현장을 이해하고,<br>로봇을 <em>구현합니다.</em></h1>
+          <p class="hero-intro">로봇 개발자 <strong>류상균</strong><br>물류자동화 현장의 경험에 임베디드 제어와<br class="desktop-break"> 비전 AI를 더해, 장치가 움직이는 기능을 만듭니다.</p>
+          <div class="hero-actions"><a class="button button-light" href="#projects">프로젝트 살펴보기 <span aria-hidden="true">↓</span></a><a class="text-link light" href="mailto:etland6554@gmail.com">이메일 보내기 <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-bottom"><span>현장 유지보수·셋업 경험</span><span>AI융합로봇 교육 이수 중</span></div>
+        </div>
+        <div class="hero-profile">
+          <div class="photo-frame"><img src="profile.webp" alt="류상균 프로필 사진" width="750" height="1000" fetchpriority="high"><span class="photo-corner" aria-hidden="true">+</span></div>
+          <div class="profile-caption"><span>RYU SANG GYUN</span><span>PORTFOLIO · 2026</span></div>
+          <div class="profile-note"><span class="note-number">01—</span><p>장치의 상태를 확인하고<br>코드와 동작을 함께 점검합니다.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section-wrap" aria-labelledby="intro-title">
+      <p class="section-kicker">ABOUT ME</p>
+      <div class="intro-grid"><h2 id="intro-title">하드웨어의 동작을 읽고,<br>소프트웨어로 연결하는 개발자</h2><div><p>물류자동화 설비를 점검하며 정상값과 오류값을 비교하고, 동작 순서와 위치 보정으로 문제를 좁혀 왔습니다. 지금은 그 경험을 로봇 제어, 센서 연동, 객체탐지 시스템 구현으로 이어가고 있습니다.</p><p>기능을 만드는 것에서 한 걸음 더 나아가, 입출력 조건과 오류 상황을 확인하고 팀이 다시 사용할 수 있도록 기록합니다.</p></div></div>
+      <div class="focus-strip"><span><b>01</b> 로봇 제어·통신</span><span><b>02</b> 임베디드 시스템</span><span><b>03</b> 비전 AI·장치 연동</span></div>
+    </section>
+
+    <section class="projects section-wrap" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading"><div><p class="section-kicker">SELECTED PROJECTS</p><h2 id="projects-title">직접 구현하고,<br>동작으로 확인한 경험</h2></div><p class="section-aside">담당 범위와 문제 해결 과정을<br>프로젝트별로 정리했습니다.</p></div>
+      <article class="project" id="armigo">
+        <div class="project-visual"><img src="armigo.webp" alt="Leader 로봇 팔과 TFT·키패드 조작부를 이용한 ARMIGO 팀 티칭 시연" width="1100" height="619" loading="lazy"><div class="image-caption"><span>01 / ROBOT CONTROL</span><span>팀 통합 시연</span></div></div>
+        <div class="project-content"><p class="project-meta">2026.08 · 4인 팀 · 공동 구현</p><h3>ARMIGO</h3><p class="project-subtitle">무선 Leader–Follower 로봇 팔</p><p>조작용 로봇 팔의 자세를 무선으로 전달하고, 저장한 자세를 반복 실행하는 시스템입니다.</p><dl class="role"><dt>담당</dt><dd>UI·판단 로직·티칭, 무선 통신과 시스템 연동<br><span>전민석과 공동 담당</span></dd></dl><ul class="tech-tags" aria-label="ARMIGO 사용 기술"><li>STM32F411RE</li><li>FreeRTOS</li><li>C</li><li>UART · Bluetooth</li></ul><details><summary>구현과 개선 과정 <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>사용자 입력과 티칭</h4><p>키패드로 운전 모드와 프리셋을 선택하고, TFT LCD에 4축 위치와 운전 상태를 표시했습니다. 자세 데이터를 플래시 메모리에 저장해 Auto 모드에서 다시 실행하도록 구성했습니다.</p><h4>통신 지연과 연결 불안정</h4><p>Polling 수신의 반복 대기가 제어 주기에 영향을 주는 것을 확인하고 인터럽트 기반 수신으로 변경했습니다. STM32 클럭과 UART 통신 속도의 불일치를 조정하고 HC-05의 Master·Slave 역할을 다시 설정해 연동을 확인했습니다.</p><img class="detail-image" src="armigo-interface.webp" alt="운전 상태와 관절 위치가 표시된 ARMIGO TFT LCD 및 키패드 조작부" width="720" height="406" loading="lazy"><p class="evidence-note">팀 프로젝트의 UI·티칭·통신을 공동 구현했습니다.</p></div></details><a class="text-link" href="https://github.com/Armigos/MasterBoard_Interface" target="_blank" rel="noopener noreferrer">팀 인터페이스 저장소 <span aria-hidden="true">↗</span></a></div>
+      </article>
+
+      <article class="project" id="safe-eye">
+        <div class="project-visual"><img src="safe-eye.webp" alt="Safe Eye의 카메라 영상에서 안전모와 안전조끼 미착용을 표시하는 팀 시연 화면" width="1200" height="618" loading="lazy"><div class="image-caption"><span>02 / ON-DEVICE AI</span><span>팀 UI · 개인 모델·장치 담당</span></div></div>
+        <div class="project-content"><p class="project-meta">2026 · 4인 팀 · 모델·임베디드 담당</p><h3>Safe Eye</h3><p class="project-subtitle">AI 산업현장 안전 감지</p><p>안전모·안전조끼 미착용과 위험구역 접근을 감지해 화면과 음성으로 경고하는 시스템입니다.</p><dl class="role"><dt>담당</dt><dd>PPE 객체탐지 모델 설계·학습<br>카메라·IR 센서·스피커 구동</dd></dl><div class="project-metrics"><div><strong>0.923</strong><span>Best mAP50</span></div><div><strong>24,941</strong><span>학습 이미지</span></div></div><p class="evidence-note">학습 검증 지표이며, 실제 현장 판별 정확도·장치 처리 속도와는 구분합니다.</p><ul class="tech-tags" aria-label="Safe Eye 사용 기술"><li>YOLO11n</li><li>Python</li><li>Raspberry Pi 5</li><li>IR · Camera</li></ul><details><summary>구현과 개선 과정 <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>데이터와 모델</h4><p>공개 데이터의 이미지·라벨 불일치를 확인하고 helmet·vest 2개 클래스로 통일했습니다. 추가 크롭 데이터 4,000장을 검수하고 입력 크기 416으로 학습했습니다. 검증 데이터는 1,200장, 마지막 Recall은 0.885입니다.</p><h4>장치 구동 구조</h4><p>IR 신호가 있을 때 추론을 활성화하고, 카메라는 최신 프레임 한 장만 유지했습니다. 센서·카메라·스피커를 독립 모듈로 나누고 같은 경고의 반복을 30초 간격으로 제한했습니다. 위험구역 경고가 PPE 경고보다 먼저 나오도록 우선순위를 두었습니다.</p><img class="detail-image" src="safe-eye-training.webp" alt="Safe Eye 학습 과정의 mAP50·Precision·Recall 검증 지표 그래프" width="1100" height="577" loading="lazy"><p class="evidence-note">화면 UI는 팀원 담당입니다. 개인 담당은 객체탐지 모델과 하드웨어·임베디드 구동입니다.</p></div></details><a class="text-link" href="https://github.com/Yangsiyoung0901/safety_robot" target="_blank" rel="noopener noreferrer">팀 프로젝트 저장소 <span aria-hidden="true">↗</span></a></div>
+      </article>
+
+      <article class="project project-ros" id="ros2">
+        <div class="ros-visual"><p class="ros-label">03 / ROS2 NAVIGATION</p><h3>이동 → 정렬 → 도킹</h3><p>순차 미션을 구성하고<br>구간별 제어 조건을 나눴습니다.</p><ol class="mission-flow"><li><span>01</span><div><b>Nav2</b><small>B · C · D · E · A 순차 방문</small></div></li><li><span>02</span><div><b>Pose alignment</b><small>마지막 작업 위치·방향 정렬</small></div></li><li><span>03</span><div><b>LiDAR + PD</b><small>저속 후진 · 거리 확인 · 정지</small></div></li></ol><div class="ros-footnote">Pinky Pro · Gazebo 시뮬레이션</div></div>
+        <div class="project-content"><p class="project-meta">2026.08 · 교육용 시뮬레이션 프로젝트</p><h3>ROS2 주행·도킹</h3><p class="project-subtitle">순차 자율주행과 라이다 기반 PD 제어</p><p>Nav2로 여러 목표를 순서대로 방문하고, 마지막 작업 위치에서는 방향 정렬 후 라이다 거리값으로 후진 도킹하는 미션을 구현했습니다.</p><dl class="role"><dt>구현</dt><dd>Action 목표·결과에 따른 미션 전환<br>일반 주행·정밀 접근 설정 분리</dd></dl><ul class="tech-tags" aria-label="ROS2 사용 기술"><li>ROS2 Jazzy</li><li>Nav2 · AMCL</li><li>Gazebo</li><li>Python · PD 제어</li></ul><details><summary>구현과 개선 과정 <span aria-hidden="true">+</span></summary><div class="detail-body"><h4>구간에 맞는 도착 기준</h4><p>중간 지점은 불필요한 최종 방향 보정을 줄이고, 마지막 A 지점은 위치 3cm·방향 약 1.15°의 설정으로 도킹 준비 자세를 맞췄습니다. 목표가 성공한 경우에만 다음 목표를 전송했습니다.</p><h4>추종과 센서값 튜닝</h4><p>주행 영상에서 좌우 진동을 분석하고 속도, 주시거리, 각가속도와 Costmap 갱신 주기를 조정했습니다. 후진 도킹에는 뒤쪽 라이다의 중앙값과 저역통과 필터, PD 제어를 적용했습니다.</p><p class="evidence-note">교육용 시뮬레이션 결과입니다. 최종 안정화 설정의 반복 주행 검증과 실물 로봇의 반복 정밀도 측정은 추가 과제입니다.</p></div></details></div>
+      </article>
+
+      <aside class="secondary-project"><div><p class="section-kicker">ADDITIONAL EXPERIENCE</p><h3>PLC 창고 적재 자동화</h3><p>2026.06 · 2인 팀 / GX Works2 · GT Designer3</p></div><p>원점 복귀와 완료 신호를 연결한 기초 시퀀스, 수동 점검, 비상정지, 서보 위치 티칭을 구현했습니다. 자동화 설비의 동작 순서를 이해하는 기반으로 활용합니다.</p></aside>
+    </section>
+
+    <section class="skills-section" id="skills" aria-labelledby="skills-title"><div class="section-wrap"><div class="section-heading"><div><p class="section-kicker">TECHNICAL SKILLS</p><h2 id="skills-title">기술은 적용 경험으로 설명합니다.</h2></div><p class="section-aside">프로젝트 구현과 학습 범위를 구분합니다.</p></div><div class="skill-list"><article><span class="skill-number">01</span><div><h3>로봇 제어·통신</h3><p>ROS2 · Nav2 · AMCL · UART · Bluetooth</p></div><p>노드·토픽·Action 연동, 순차 주행 미션, 로봇 팔 티칭과 무선 통신</p></article><article><span class="skill-number">02</span><div><h3>임베디드·장치 구동</h3><p>C · C++ · STM32 · FreeRTOS · Raspberry Pi 5</p></div><p>UI·상태 판단 로직, 센서 입력 처리, 카메라·스피커 모듈 구현</p></article><article><span class="skill-number">03</span><div><h3>비전 AI</h3><p>Python · YOLO11n · 데이터 검수</p></div><p>PPE 객체탐지 모델 학습·검증, 추론 조건과 영상 입력 연동</p></article><article><span class="skill-number">04</span><div><h3>설비·설계 기반</h3><p>AutoCAD · UG NX · PowerMILL · PLC 기초</p></div><p>기계설계·가공 기반, 장비 셋업·PM·유지보수, 시퀀스와 서보 티칭</p></article></div></div></section>
+
+    <section class="experience section-wrap" id="experience" aria-labelledby="experience-title"><div class="section-heading"><div><p class="section-kicker">FIELD EXPERIENCE</p><h2 id="experience-title">개발의 바탕이 된 현장 경험</h2></div><p class="section-aside">설비의 입력, 상태, 동작 순서를<br>함께 확인해 온 경험입니다.</p></div><div class="experience-grid"><div class="timeline"><article><time>2025.03 — 2026.03</time><h3>에스앤에스</h3><p>평택 셋업 · PM · 유지보수</p><small>장비 진행상황과 인증 이슈를 담당자들과 공유</small></article><article><time>2023.10 — 2024.11</time><h3>에스에프시스템</h3><p>NRD 물류자동화 설비 유지보수</p><small>삼성전자 화성 현장 · 위치 보정과 반복 오류 대응</small></article><article><time>2020.01 — 2021.01</time><h3>동우화인켐</h3><p>설비 운영 · 보전</p></article><article><time>2018.08 — 2019.03</time><h3>에이씨알텍</h3><p>공조냉동설계</p></article></div><div class="field-case"><span class="case-label">현장 문제 해결 사례</span><h3>반복되는 적재·하역 오류,<br>위치값과 동작 순서에서 원인을 찾다.</h3><p>NRD 천장 이송장비의 적재·하역 오류를 확인하며 정상 상태와 오류 상태의 위치값을 비교했습니다. 매뉴얼을 기준으로 파지부·승강부 동작과 자동 위치 보정 기능을 확인했습니다.</p><p>파지부·승강부를 정상 범위로 교정한 뒤 빈 캐리어로 반복 시험하고, 점검 기준과 조정 항목을 동료들에게 공유했습니다.</p><div class="case-chain"><span>값 비교</span><span aria-hidden="true">→</span><span>위치 교정</span><span aria-hidden="true">→</span><span>반복 시험</span></div></div></div></section>
+
+    <section class="education section-wrap"><p class="section-kicker">EDUCATION & DIRECTION</p><div class="education-grid"><div><h2>학습과 다음 방향</h2><dl class="education-list"><dt>AI융합로봇 교육 3기</dt><dd>2026.04 — 2026.11.09 수료 예정<br>임베디드 · 로봇 · 비전 AI 교육 이수 중</dd><dt>기계공학 학사과정</dt><dd>이수 중 · 2027년 하반기 취득 예정</dd><dt>한국폴리텍1대학 컴퓨터응용기계과</dt><dd>2013.03 — 2017.02 · 학점 4.09 / 4.5</dd><dt>컴퓨터응용가공산업기사</dt><dd>2016.07 취득</dd></dl></div><div class="career-direction"><p class="small-label">희망 직무</p><h3>로봇 개발을 중심으로,<br>장치와 사람을 연결하는 일</h3><p>로봇 소프트웨어, 임베디드·펌웨어, 비전 AI 개발 직무를 중심으로 역량을 쌓고 있습니다.</p><h4>기술영업에도 열려 있습니다.</h4><p>기술영업 업무를 초기에 경험한 적이 있습니다. 경험 범위는 제한적이지만, 현장·장치에 대한 이해를 바탕으로 기술을 설명하고 고객 요구를 이해하는 기술영업·기술지원 직무에도 관심이 있습니다.</p></div></div></section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title"><div class="section-wrap contact-inner"><div><p class="section-kicker">LET’S CONNECT</p><h2 id="contact-title">함께 만들 로봇의 이야기를<br>기다립니다.</h2><p>프로젝트와 현장 경험에 대해 더 자세히 말씀드리겠습니다.</p><a class="contact-email" href="mailto:etland6554@gmail.com">etland6554@gmail.com <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://github.com/rysagy" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a><a href="tel:+821065542989">010-6554-2989</a><button type="button" id="copy-email">이메일 주소 복사</button><span id="copy-status" role="status" aria-live="polite"></span></div></div><div class="qr-block"><a href="portfolio-qr.png" download="류상균_포트폴리오_QR.png" aria-label="포트폴리오 QR 코드 PNG 다운로드"><img src="portfolio-qr.png" alt="류상균 포트폴리오 https://rysagy.github.io/ 로 연결되는 QR 코드" width="224" height="224" loading="lazy"></a><p>모바일로 포트폴리오 보기</p><a href="portfolio-qr.svg" download="류상균_포트폴리오_QR.svg">인쇄용 QR 다운로드 <span aria-hidden="true">↓</span></a></div></div></section>
+  </main>
+  <footer class="site-footer"><span>© 2026 류상균 · RYU SANG GYUN</span><a href="#top">맨 위로 <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
