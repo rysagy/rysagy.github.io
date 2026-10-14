@@ -15,3 +15,5 @@
 
 /* 근무 현장은 강조하고 협력사 소속은 함께 명시합니다. */
 .timeline h3.client-site{color:var(--teal);font-size:24px;font-weight:800}.timeline p.employer{font-size:12px;font-weight:400;color:var(--muted);margin:4px 0 9px}
+
+@media(max-width:640px){.project-metrics{gap:22px;flex-wrap:wrap}.project-metrics strong{font-size:25px}}
